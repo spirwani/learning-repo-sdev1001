@@ -1,0 +1,26 @@
+type in Python to access Python in terminal
+basic print function
+proper capitalization for Python = important
+type exit to return to PowerShell
+backwards compatibility
+deprecated
+truncated
+IDE - Integrated Developed Environments
+
+Data types(basic, more detail later lesson):
+String = str
+Integer = int
+Float = float
+= assignment operator
+concatenation (+)
++ for numbers = add
++ for string = joining
++ is an overloaded operator
+double or single quotes, both work
+when a number is in quotations, it becomes a string
+Python is dynamically typed, just assign a value and don't need to declare type
+*chose the proper name
+can use int or float to change data types
+when something goes wrong = traceback
+
+intropythonstuff.py for rest of class notes

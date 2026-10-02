@@ -1,3 +1,4 @@
+#indexing starts at 0
 colours = ['red', 'blue', 'yellow', 'pink']
 print(colours)
 
