@@ -7,5 +7,5 @@ print(f'the 5th to 9th shows are: {shows[4:9]}')
 print('the top 5 shows are: ')
 index = 0
 while index <5:
-    print(shows[index])
+    print(f"Ranked {index+1} is: {shows[index]}")
     index = index+1
