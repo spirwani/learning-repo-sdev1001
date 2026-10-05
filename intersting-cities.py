@@ -8,6 +8,5 @@ print(f'list of cities: {cities}')
 invalid_city = ['Munich', 'Berlin']
 for city in cities:
     if city in invalid_city:
-        print(f"{city} is not an interesting place to visit")
-    else:
-        print(f"{city} is an interesting place to visit")
+        continue
+    print(f"{city} is an interesting place to visit")
