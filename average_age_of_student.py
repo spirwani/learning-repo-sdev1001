@@ -1,10 +1,14 @@
 print("Average age of student calculator")
-age = input('Enter age of student or stop')
 age_total = 0
 while_counter = 0
-while age !='stop':
-    age_total = age+age_total
+while True:
     age = input('Enter age of student or stop')
-    while_counter = while_counter+1
-
+    if age == 'stop':
+        break
+    else:
+        age_total = int(age)+age_total
+        while_counter = while_counter+1
+        break
+age_average = age_total/while_counter
+print(f'Average age is: {age_average}')
 
