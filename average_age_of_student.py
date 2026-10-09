@@ -1,6 +1,7 @@
 print("Average age of student calculator")
 age_total = 0
 while_counter = 0
+age_average = 0
 try:
     while True:
         age = input('Enter age of student in number form or stop')
