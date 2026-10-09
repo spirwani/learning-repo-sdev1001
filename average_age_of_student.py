@@ -3,7 +3,7 @@ age_total = 0
 while_counter = 0
 try:
     while True:
-        age = input('Enter age of student or stop')
+        age = input('Enter age of student in number form or stop')
         if age == 'stop':
             break
         else:
