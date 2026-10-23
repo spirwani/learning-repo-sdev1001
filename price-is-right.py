@@ -1,12 +1,7 @@
-import random
-price = random.randint(1,10)
-price1 = random.randint(1,10)
-price2 = random.randint(1,10)
-prices = [price, price1, price2]
-guess = int(input("guess the price: "))
-if guess == prices[0] or guess == prices[1] or guess == prices[2]:
-    print('winner')
-else:
-    print('loser')
-print(f'the prices were{prices}')
+import price_is_right_games
     
+while True:
+    game = price_is_right_games
+    play_again = input('do you want to play again? (y/n):')
+    if play_again == 'n':
+        break
