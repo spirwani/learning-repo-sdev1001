@@ -40,3 +40,11 @@ if 'tomato_allergy' in burger:
         print("have removed tomatoes")
     else:
         print("added tomatoes")
+
+# nested dictionaries
+burger_menu = {
+    "classic": {"price": 8.99, "calories": 650},
+    "veggie": {"price": 7.99, "calories": 450}
+}
+
+print(burger_menu['classic']["price"])
