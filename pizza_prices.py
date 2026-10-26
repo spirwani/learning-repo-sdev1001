@@ -17,3 +17,19 @@ toppings_prices = {
     "olives", 1.25,
     "sausage", 2.25   
 }
+
+price = 12
+for topping, add in toppings.items():
+    if add:
+        price += toppings_prices[topping]
+
+price = price*1.18
+
+print("your toppings are")
+for topping in toppings.items():
+    if add:
+        print(topping)
+    else:
+        print(f"no {topping}")
+
+print(f"total: {price}")
