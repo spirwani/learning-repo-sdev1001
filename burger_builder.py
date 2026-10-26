@@ -15,3 +15,7 @@ if burger['cheese']:
     print("cheese is on your burger")
 else:
     print("no cheese is on your burger")
+
+print("Here's a toppings list: ")
+for topping in burger['toppings']:
+    print(f"-{topping}")
