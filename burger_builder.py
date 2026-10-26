@@ -27,3 +27,9 @@ print("Here's a toppings list: ")
 for topping in burger['toppings']:
     print(f"-{topping}")
 
+#write a value that doesn't exist
+burger['gluten_allergy'] = True
+
+gluten_allgery = burger.get('gluten_allergy', False)
+if gluten_allgery:
+    print("we've removed gluten from burger")
