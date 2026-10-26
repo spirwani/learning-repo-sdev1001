@@ -33,3 +33,10 @@ burger['gluten_allergy'] = True
 gluten_allgery = burger.get('gluten_allergy', False)
 if gluten_allgery:
     print("we've removed gluten from burger")
+
+#check to see if key exists
+if 'tomato_allergy' in burger:
+    if burger['tomato_allergy']:
+        print("have removed tomatoes")
+    else:
+        print("added tomatoes")
