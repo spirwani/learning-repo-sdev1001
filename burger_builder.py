@@ -7,6 +7,13 @@ burger = {
     'bun': 'sesame seed'
 }
 
+#changing values in dictionary
+burger['patties'] = 2
+burger['patty_type'] = 'vegetarian'
+burger['cheese'] = False
+burger['bun'] = 'whole wheat'
+
+#getting items
 print("Here's what's in the burger: ")
 print(f"{burger['patties']} {burger['patty_type']} patties is on your burger")
 
@@ -19,3 +26,4 @@ else:
 print("Here's a toppings list: ")
 for topping in burger['toppings']:
     print(f"-{topping}")
+
