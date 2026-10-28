@@ -18,3 +18,7 @@ voting_results = {
     "apple": 0,
     "orange": 0
 }
+
+print("Voters:")
+for voter in fav_fruit_voters.keys():
+    print(F"- {voter}")
