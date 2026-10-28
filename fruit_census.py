@@ -43,3 +43,11 @@ print(f"Total votes cast: {total_votes}")
 print("Voting Results:")
 for fruit, votes in voting_results.items():
     print(F"- The fruit: {fruit} has {votes} votes")
+
+for vote in fav_fruit_voters.values():
+    if vote == "banana":
+        voting_results["banana"] += 1
+    elif vote == "apple":
+        voting_results["apple"] += 1
+    elif vote == "orange":
+        voting_results["orange"] += 1
