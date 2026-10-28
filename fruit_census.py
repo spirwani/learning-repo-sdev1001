@@ -22,3 +22,14 @@ voting_results = {
 print("Voters:")
 for voter in fav_fruit_voters.keys():
     print(F"- {voter}")
+
+for vote in fav_fruit_voters.values():
+    if vote == "banana":
+        voting_results["banana"] += 1
+    elif vote == "apple":
+        voting_results["apple"] += 1
+    elif vote == "orange":
+        voting_results["orange"] += 1
+
+print("Voting Results:")
+print(voting_results)
