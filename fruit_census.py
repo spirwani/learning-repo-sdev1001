@@ -39,3 +39,7 @@ total_votes = 0
 for count in voting_results.values():
     total_votes += count
 print(f"Total votes cast: {total_votes}")
+
+print("Voting Results:")
+for fruit, votes in voting_results.items():
+    print(F"- The fruit: {fruit} has {votes} votes")
