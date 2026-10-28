@@ -33,3 +33,9 @@ for vote in fav_fruit_voters.values():
 
 print("Voting Results:")
 print(voting_results)
+
+
+total_votes = 0
+for count in voting_results.values():
+    total_votes += count
+print(f"Total votes cast: {total_votes}")
