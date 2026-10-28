@@ -51,3 +51,7 @@ for vote in fav_fruit_voters.values():
         voting_results["apple"] += 1
     elif vote == "orange":
         voting_results["orange"] += 1
+
+print("Voting Results:")
+for fruit, votes in sorted(voting_results.items()):
+    print(F"- The fruit: {fruit} has {votes} votes")
